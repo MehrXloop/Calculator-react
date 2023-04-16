@@ -100,9 +100,8 @@ function Calculator() {
     <div className='calc'>
       <InputBox value={input} />
       <div>
-        <Button onClick={handleReset} className='btn btn-secondary'>C</Button>
+        <Button onClick={handleReset} className='btn btn-secondary btn-lg'>C</Button>
         <Button onClick={handleReset} className='btn btn-secondary'>X</Button>
-        <Button className='btn btn-secondary'>%</Button>
         <Button onClick={handleOperators} className='btn btn-secondary'>/</Button>
       </div>
       <div>
