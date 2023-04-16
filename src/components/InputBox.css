@@ -1,0 +1,17 @@
+.inputBox{
+ /* background-color: brown; */
+ width: 100%;
+ padding:0 17px
+}
+.inputBox input{
+    width: 100%;
+    height: 50px;
+    font-size: 2.2em;
+    font-weight: bold;
+    outline: none;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.497);
+}
